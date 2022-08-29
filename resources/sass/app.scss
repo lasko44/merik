@@ -1,0 +1,105 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x:hidden;
+    font-family: 'Poppins', sans-serif;;
+}
+//region heights
+
+.height-50{
+    height: 50vh;
+    min-height: 50vh;
+}
+//endregion
+
+//region Buttons
+.black-btn{
+    border: solid 4px black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background: white;
+    color: black;
+    text-align: center;
+    width:30%;
+}
+
+.black-btn:hover{
+    background: black;
+    color: white;
+}
+//endregion
+
+//region Margins
+.m-top-1{
+    margin-top: 1vh;
+}
+
+.m-top-3{
+    margin-top: 3vh;
+}
+.m-top-5{
+    margin-top: 5vh;
+}
+.m-top-10{
+    margin-top: 10vh;
+}
+
+.m-bottom-3{
+    margin-bottom: 3vh;
+}
+
+.m-bottom-5{
+    margin-bottom: 5vh;
+}
+
+.m-bottom-20{
+    margin-bottom:20vh;
+}
+//endregion
+
+//region containers
+.home-container{
+    height: 100vh;
+    max-height: 100vh;
+    width: 100vw;
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+.gear{
+    padding: 0 !important;
+    overflow:clip;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all .3s ease-in-out;
+    }
+}
+
+.gear:hover{
+    cursor: pointer;
+    img{
+        transform: scale(1.03);
+    }
+}
+.shade{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 80%);
+    position: relative;
+    top:-100%;
+}
+.gear:hover{
+
+}
+//endregion
+
