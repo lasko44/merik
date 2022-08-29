@@ -75,6 +75,38 @@ body{
     overflow: hidden;
 }
 
+.dark-container{
+    height: 100%;
+    width:100%;
+    h2{
+        position: fixed;
+        bottom: 45px;
+        font-weight: 400;
+        color: white;
+    }
+    .light-container{
+        display: none;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 70%;
+        .light{
+            height: 100%;
+            width: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 35%);
+            border-radius: 50%;
+        }
+    }
+}
+
+.dark-container:hover{
+    cursor: pointer;
+    .light-container{
+        display: block;
+    }
+}
+
+
 .gear{
     padding: 0 !important;
     overflow:clip;
@@ -83,6 +115,12 @@ body{
         width: 100%;
         object-fit: cover;
         transition: all .3s ease-in-out;
+    }
+    h2{
+        position: relative;
+        top:-637px;
+        font-weight: 400;
+        color: white;
     }
 }
 
