@@ -16,20 +16,7 @@
             </div>
         </div>
     </div>
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
-                <h5 class="text-white h4">Collapsed content</h5>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
-            </div>
-        </div>
-        <nav class="navbar navbar-light bg-transparent ">
-            <div class="m-lg-auto"></div>
-                <button class="navbar-toggler m-3 ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        </nav>
-    </div>
+    @include('partials.hamburger')
     <div class="container-85 m-bottom-20 m-top-10">
         <h2>We’ll get the engine running</h2>
         <div class="text-block">
