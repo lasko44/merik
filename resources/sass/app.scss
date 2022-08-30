@@ -75,6 +75,35 @@ body{
     overflow: hidden;
 }
 
+.container-85{
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    h2{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+
+    .text-block{
+        margin-top: 6vh;
+    }
+}
+
+
+
+.link-item{
+    text-decoration: none;
+    padding: 0 !important;
+}
+.link-item:hover{
+    color: white;
+}
+
 .dark-container{
     height: 100%;
     width:100%;
@@ -106,6 +135,30 @@ body{
     }
 }
 
+.hero{
+    height: 40vh;
+    padding: 0 !important;
+    overflow:clip;
+    img{
+        max-height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all .3s ease-in-out;
+    }
+    .hero-title{
+        position: relative;
+        top: 15vh;
+        left:10vw;
+        font-size: 2.5rem;
+    }
+}
+
+.shade-left{
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(255,255,255,0) 100%);
+    position: relative;
+    top:-100%;
+}
 
 .gear{
     padding: 0 !important;
@@ -136,6 +189,7 @@ body{
     position: relative;
     top:-100%;
 }
+
 .gear:hover{
 
 }
