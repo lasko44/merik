@@ -23,19 +23,28 @@
                 <a class="link-item" href="{{route('working')}}">
                     <div class="height-50 bg-black gear">
                         <img src="{{asset('images/gear.jpeg')}}" alt="Merik Custom Software">
-                        <div class="shade"></div>
-                        <h2 class="px-3 display-5">Already Have <br> Something in the <br> Works?</h2>
+                        <div class="shade">
+                            <h2 class="px-3 display-5">Already Have <br> Something in the <br> Works?</h2>
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="row">
-                <div class="height-50 bg-black">
-                    <div class="dark-container">
-                        <div class="light-container">
-                            <div class="light"></div>
+            <div class="row bg-black">
+                <div class="dark-container link-item">
+                    <a class="link-item text-white" href="{{route('working')}}">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="height-50 d-flex align-items-end">
+                                    <h2 class=" px-3 display-5">Lost in the Dark?</h2>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="light-container">
+                                    <div class="light"></div>
+                                </div>
+                            </div>
                         </div>
-                        <h2 class="px-3 display-5">Lost in the Dark?</h2>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
